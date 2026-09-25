@@ -1,4 +1,4 @@
-## 1. Student Attendance Analysis
+<img width="1202" height="722" alt="image" src="https://github.com/user-attachments/assets/8a44ce2f-bc18-4168-b381-e2fa329e9fc5" />## 1. Student Attendance Analysis
 A college maintains the daily attendance details of its students in the form of a list containing student IDs. Some students may have attended multiple sessions on the same day. The administration wants to identify the longest continuous sequence of sessions in which no student ID is repeated. Develop a solution that determines the maximum length of such a sequence.
 
 ```
@@ -15,7 +15,7 @@ for i in range(len(stu)):
 print(long)
 ```
 ## output:
-<img width="371" height="210" alt="image" src="https://github.com/user-attachments/assets/f7f11a76-a65e-485b-86d6-98cd4fdd8c75" />
+<img width="816" height="883" alt="image" src="https://github.com/user-attachments/assets/dc9f6565-32d0-47ac-b260-ca0f1323abce" />
 
 ## 2. Online Shopping Price Analysis
 An online shopping application stores the prices of products viewed by a customer during a browsing session. The customer wants to identify a continuous range of products that provides the maximum possible total discount value. Given the discount values, determine the maximum value that can be obtained from any continuous range.
@@ -34,7 +34,7 @@ print(max)
 ```
 
 ## Output :
-<img width="278" height="199" alt="image" src="https://github.com/user-attachments/assets/11327190-792a-4189-8766-77f0296fba15" />
+<img width="1292" height="823" alt="image" src="https://github.com/user-attachments/assets/e3a2d8d1-b1af-47a8-b4bc-c4d16884a602" />
 
 ## 3. Rainwater Collection System
 A city installs buildings of different heights along a straight road. During rainfall, water gets collected between taller buildings. The engineering team needs to calculate the total amount of water that can remain trapped after heavy rainfall based on the heights of the buildings.
@@ -51,7 +51,7 @@ print(water)
 ```
 ## Output:
 
-<img width="233" height="253" alt="image" src="https://github.com/user-attachments/assets/6e381a2a-5048-46ff-8275-c13378f0deec" />
+<img width="1347" height="880" alt="image" src="https://github.com/user-attachments/assets/eee27f5b-ae53-49c6-8388-9f931e10bf64" />
 
 ## 4. Employee Performance Analysis
 A company stores the monthly performance scores of an employee for several months. The scores may contain both positive and negative values depending on the employee's performance. Management wants to identify the continuous period during which the employee achieved the highest overall performance.
@@ -69,7 +69,8 @@ print("Maximum performance:", max)
 ```
 
 ## Output:
-<img width="360" height="191" alt="image" src="https://github.com/user-attachments/assets/fd48cd7b-dc37-4b26-a121-3521bccb669d" />
+<img width="1527" height="803" alt="image" src="https://github.com/user-attachments/assets/ea910d7a-f6b1-4ad2-8a7e-d54f1513fdce" />
+
 
 ## 5. Product Sales Analysis
 A retail company stores the daily sales quantity of a product for several consecutive days. Due to seasonal changes, some days may have negative adjustments. The company wants to identify the period that produced the highest multiplication of sales-related values. Develop a solution to determine this maximum product.
@@ -86,7 +87,9 @@ for i in range(len(sales)):
 print("Maximum product:", max)
 ```
 ## output:
-<img width="428" height="272" alt="image" src="https://github.com/user-attachments/assets/ad3fa1e8-3800-49f9-a3d5-4101277eec6d" />
+<img width="1202" height="722" alt="image" src="https://github.com/user-attachments/assets/f93a6c6c-58ee-47bd-bfa4-e76f9fffe374" />
+
+
 
 
 ## 6. Customer Purchase History
@@ -106,7 +109,8 @@ for i in range(len(products)):
 print("Longest sequence:", long)
 ```
 ## output:
-<img width="457" height="238" alt="image" src="https://github.com/user-attachments/assets/641165ef-bf20-4d8c-8b73-e82bb7009d55" />
+<img width="1407" height="750" alt="image" src="https://github.com/user-attachments/assets/c131d585-e4e2-45e4-823f-0545baf81748" />
+
 
 ## 7. Bank Transaction Analysis
 A bank stores transaction amounts for a customer's account. A continuous group of transactions may add up to a specific target amount. The auditing system needs to determine how many different continuous transaction groups produce exactly the specified amount.
@@ -125,7 +129,8 @@ print("Number of groups:", count)
 
 ```
 ## output:
-<img width="349" height="219" alt="image" src="https://github.com/user-attachments/assets/5d1afe25-f6dc-48b9-b436-5171e2f7ebc1" />
+<img width="1342" height="727" alt="image" src="https://github.com/user-attachments/assets/81cea625-2721-4412-9b58-570fa6832cd7" />
+
 
 ## 8. Employee Skill Grouping
 A company receives a list of employee skill codes represented as strings. Employees having the same set of characters in their skill codes belong to the same skill category, even if the characters appear in a different order. The HR system needs to organize employees into appropriate skill groups.
@@ -143,8 +148,8 @@ print(list(groups.values()))
 ```
 
 ## Output:
+<img width="1507" height="821" alt="image" src="https://github.com/user-attachments/assets/97de2185-32c6-41d5-8c69-22346952d8c1" />
 
-<img width="840" height="232" alt="image" src="https://github.com/user-attachments/assets/175efbd6-2e9a-47fe-8887-6978bce044da" />
 
 ## 9. Network Packet Analysis
 A network monitoring system receives packet identifiers in chronological order. The system must determine the longest sequence of consecutive packets whose identifiers form a continuous numerical sequence, regardless of their original order in the incoming data.
@@ -165,8 +170,10 @@ for i in range(1, len(packets)):
 print("Longest sequence:", longest)
 ```
 ## output
+<img width="1646" height="845" alt="image" src="https://github.com/user-attachments/assets/14851d60-23ec-467e-939b-7da9d963a9dd" />
 
-<img width="364" height="184" alt="image" src="https://github.com/user-attachments/assets/3a8c47cf-b60a-4e54-b744-8cee3a615f2b" />
+
+
 
 ## 10. Hospital Appointment Scheduling
 A hospital receives appointment requests represented by starting and ending times. Some appointments overlap with each other. The scheduling system needs to combine overlapping appointment periods so that the final schedule contains only non-overlapping time ranges.
@@ -184,5 +191,7 @@ print(result)
 ```
 
 ## output:
+<img width="1557" height="782" alt="image" src="https://github.com/user-attachments/assets/b1f0c3c5-0e21-4389-bcda-24851c0fe646" />
 
-<img width="386" height="225" alt="image" src="https://github.com/user-attachments/assets/71ed3172-c431-4a67-ae0f-5b471febbfe9" />
+
+
